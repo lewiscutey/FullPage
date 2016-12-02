@@ -1047,17 +1047,16 @@ img {
       text-decoration: none;
       text-align: right;
       background: url(../img/dot.png) 5px 5px no-repeat; }
-  #fullPage-nav span {
-    top: 2px;
-    left: 2px;
-    width: 8px;
-    height: 8px;
-    border: 1px solid #000;
-    background: transparent;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 1;
-    display: none; }
+      #fullPage-nav li a span {
+        position: absolute;
+        top: 1px;
+        right: 26px;
+        font-size: 12px;
+        color: #2a6496;
+        width: auto;
+        z-index: 1;
+        opacity: 0;
+        transition: all .8s ease; }
 
 #fullPage-nav li a.active {
   background-position: 0 bottom; }

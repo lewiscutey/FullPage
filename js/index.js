@@ -32,8 +32,13 @@ $(function () {
            $(".section").eq(index).removeClass("active");
            $("#fullPage-nav ul a").each(function () {
                $(this).removeClass("active");
+           }).hover(function () {
+               $(this).find("span").css("opacity",1);
+           },function () {
+               $(this).find("span").css("opacity",0)
            });
            $("#fullPage-nav ul a").eq(nextIndex-1).addClass("active");
+
        }
 
 
